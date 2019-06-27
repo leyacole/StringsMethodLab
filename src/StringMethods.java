@@ -1,4 +1,5 @@
 
+
 public class StringMethods {
 	
 public static String capitalize(String word) {
@@ -70,12 +71,17 @@ public static String capitalize(String word) {
 		
 	}
 	
-	/*public static void afterMath(String phrase) {  //doesn't work
-		phrase.substring("math");
-		System.out.println(phrase);
+	public static void afterMath(String phrase) {  
+	  
+	    int i = phrase.indexOf("math");
+		substring(i);
+		System.out.println(phrase.substring(i));
+	}
+	
+	private static void substring(int i) {
+		// TODO Auto-generated method stub
 		
-		
-	}*/
+	}
 	
 	public static void letterSize(String word) {
 		
